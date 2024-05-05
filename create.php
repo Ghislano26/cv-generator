@@ -14,6 +14,7 @@
         $telephone = strip_tags($_POST['phone']);  
         $ville = strip_tags($_POST['ville']);    
         $photo = $_POST['photo']; 
+        $education = strip_tags($_POST['education']);
         $skill = $_POST['skill'];
         $postal = $_POST['postal'];
     
@@ -109,7 +110,7 @@ body{
 
 
 
-    <div class="flex justify-center flex-[5] bg-[#ACABA7] pt-[2rem]">
+    <div class="flex justify-center flex-[5] bg-gray-200 pt-[2rem]">
         <!-- Corps du cv -->
             <div class="w-[60%] h-[90%] bg-black">
 
@@ -139,29 +140,29 @@ body{
                     
                         <div class="flex flex-col flex-1 bg-green-300">
                             
-                                <div class="w-full bg-[#210536] p-[1rem] flex flex-col gap-[2rem] text-white">
+                                <div class="w-full bg-[#210536] p-[1rem] flex flex-col gap-[1rem] text-white">
 
                                         <div>
                                             <img src="modele\contact.png" alt="" class="w-[90%]">
                                        </div>
                                     
                                        <div>
-                                            <span class="font-bold">Telephone :</span>
+                                            <span class="flex items-center font-bold"><img src="assets\img\phonetel.png" alt="" class="w-[15%] h-[15%]"><h1>Telephone :</h1></span>
                                             <h1 class="font border-orange-500 border-b-[.2rem] pb-[.1rem]"><?php echo $telephone ?></h1>
                                        </div>
 
                                        <div>
-                                            <span class="font-bold">E-mail :</span>
+                                            <span class="flex items-center font-bold"><img src="assets\img\mail.png" alt="" class="w-[15%] h-[15%]">E-mail :</span>
                                             <h1 class="border-orange-500 border-b-[.2rem] pb-[.1rem] font"><?php echo $email ?></h1>
                                        </div>
 
                                        <div>
-                                            <span class="font-bold">Adresse :</span>
+                                            <span class="flex items-center font-bold"><img src="assets\img\address.png" alt="" class="w-[15%] h-[15%]">Adresse :</span>
                                             <h1 class="border-orange-500 border-b-[.2rem] pb-[.1rem] font"><?php echo $ville ?> , Cameroun</h1>
                                        </div>
 
                                        <div>
-                                            <span class="font-bold">Code Postal</span>
+                                            <span class="flex items-center font-bold"><img src="assets\img\postal.png" alt="" class="w-[15%] h-[15%]">Code Postal</span>
                                             <h1 class="border-orange-500 border-b-[.2rem] pb-[.1rem] font"><?php echo $postal ?></h1>
                                        </div>
                                     
@@ -218,16 +219,16 @@ body{
                                 <hr class="mt-[1rem] h-[.2rem] w-full bg-gray-700 border-none">
 
                                 <ol class="mt-[1rem] font">
-                                    <li>yo</li>
-                                    <li>yo</li>
-                                    <li>yo</li>
-                                    <li>yo</li>
-                                    <li>yo</li>
-                                    <li>yo</li>
-                                    <li>yo</li>
+                                    <li class="font-bold text-[1.2rem] font"><?php echo $education ?></li>
+                                    
                                 </ol>
 
-                                
+
+                                       <div>
+                                            <img src="assets\img\education.png" alt="">
+                                       </div>     
+
+
                             </div>
 
                         

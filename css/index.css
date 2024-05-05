@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100;200;300;400;500;600;700&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2? family= Poppins:wght@300 & family= Roboto:wght@300 & display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto:wght@300;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montaga&display=swap');
+
+:root{
+    --gradient-head:  linear-gradient(95.7deg, #340738 0.64%, #000233 101%);
+    --Font: 'Roboto', sans-serif;
+    --font: "Montaga", serif;
+    --gradient-first: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(38,13,130,0.9641106442577031) 86%);
+    --gradient-second: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,38,121,0.6195728291316527) 87%, rgba(0,212,255,1) 100%);
+    --gradient-third: linear-gradient(45deg, hsla(9, 58%, 47%, 1) 0%, hsla(3, 42%, 39%, 1) 0%, hsla(215, 100%, 15%, 1) 100%);;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+}
+html{
+    margin: 0;
+    padding: 0;
+    font-size: 10px;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+
+}
+.gradient-head{
+    background: var(--gradient-head);
+}
+.gradient-first{
+    background: var(--gradient-first);
+}
+.gradient-second{
+    background: var(--gradient-second);
+}
+.gradient-third{
+    background: var(--gradient-third);
+}
+.link{
+    color: #D4B8C5;
+}
+.font{
+    font-family: var(--font);
+}
+.bg-img{
+    background-image: url(/assets/img/tache.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+/* .span-round{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    height: 20%;
+    border: 2px solid;
+    border-color: rgb(137, 137, 137);
+    background: #000;
+
+} */
+
+
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }

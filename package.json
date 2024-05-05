@@ -1,0 +1,41 @@
+{
+  "dependencies": {
+    "swiper": "^11.1.1"
+  }
+}
+// <section class="w-full h-[30%] flex justify-center items-center mt-[8rem]">
+//             <h1 class="text-[4.5rem] text-blue-950 font text-center">Choississez un modele et  <br> commencez a l'editer rapidement</h1>
+//     </section>
+
+
+// <!-- Carrousselle bootstrap -->
+// <section class="w-full h-[100%] mt-[5rem] flex justify-center bg-[url(assets/img/tache1.png)]">
+                
+        
+//     <div id="carouselExampleInterval" class="w-[80%] carousel slide flex items-center justify-center" data-bs-ride="carousel">
+//         <div class="flex h-full gradient-third carousel-inner">
+//             <img src="assets/img/emoji.png" alt="" class="w-[40%] h-[40%]">
+//           <div class="flex h-full carousel-item active" data-bs-interval="10000">
+//             <img src="modele/modele1.jpg" class="h-full cursor-pointer d-flex" alt="...">
+//           </div>
+//           <div class="h-full carousel-item" data-bs-interval="2000">
+//             <img src="modele/modele2.jpg" class="h-full cursor-pointer d-flex" alt="...">
+//           </div>
+//           <div class="h-full carousel-item">
+//             <img src="modele/modele4.jpg" class="h-full cursor-pointer d-block" alt="...">
+//           </div>
+//         </div>
+        
+//         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+//           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+//           <span class="visually-hidden">Previous</span>
+//         </button>
+//         <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+//           <span class="carousel-control-next-icon" aria-hidden="true"></span>
+//           <span class="visually-hidden">Next</span>
+//         </button>
+//       </div>
+
+
+    
+// </section>

@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <title>Modern CV Generate</title>
+    
+</head>
+<body>
+
+    <header class="flex flex-col gap-[2rem] w-screen h-[99vh] gradient-head">
+
+        <nav class="flex w-full h-[15%] pt-[2rem] fixed gradient-head z-10">
+
+            <div class="flex-1 flex justify-start items-center p-[2rem]">
+                    <img src="assets/img/logo.png" alt="" class="w-[50%]">
+            </div>
+            <div class="flex items-center flex-[2] justify-evenly text-[2rem] font link">
+                <a href="#" class="hover:text-white scale-[1.1] transition-all">Models</a>
+                <a href="#" class="hover:text-white scale-[1.1] transition-all">Price</a>
+                <a href="#" class="hover:text-white scale-[1.1] transition-all">FAQ</a>
+            </div>
+            <div class="flex items-center justify-around flex-1 overflow-hidden bg-[url(assets/img/tache.png)] bg-cover bg-center bg-no-repeat">
+                <button class="gradient-head w-[15rem] h-[5rem] rounded transition-all hover:scale-[1.1]"><a href="#" class="text-[1.5rem] text-white font">Connexion</a></button>
+                <button class="gradient-head w-[15rem] h-[5rem] rounded transition-all hover:scale-[1.1]"><a href="./form.html" class="text-[1.5rem] text-white font">Creer un CV</a></button>
+            </div>
+
+        </nav>
+        
+        <aside class="flex w-full h-full mt-[20rem]">
+
+            <div class="flex flex-col gap-[5rem] items-center justify-center flex-1">
+                    <h1 class="text-[6rem] text-white font">Creer votre CV pro en ligne</h1>
+                    <h3 class="text-[1.9rem] text-center text-white Font">Remplissez le formulaire, choisissez un modele et telechargez votre CV en quelques minutes.</h3>
+                    <button class="gradient-head w-[15rem] h-[5rem] rounded transition-all hover:scale-[1.1]"><a href="./form.html" class="text-[1.5rem] text-white font">Creer un CV</a></button>
+                    
+            </div>
+            
+            <div class="flex-1 bg-[url(assets/img/tache.png)] bg-no-repeat  pl-[1rem]">
+                    <img src="assets/img/noir_associate.png" alt="" class="h-full">
+            </div>
+
+
+
+        </aside>
+
+    </header>
+
+    <section class="flex flex-col gap-[1rem] w-screen h-[190%] mt-[8rem]">
+
+      <div class="flex flex-col gap-[8rem] flex-1">
+          
+              <div class="flex items-center justify-center flex-1 pl-[5rem] pr-[5rem]">
+                  <h1 class="text-[5rem] font text-blue-950">Comment ça marche ?</h1> 
+              </div>
+
+
+              <div class="flex-[5] flex justify-evenly">
+                  
+                  <div class="flex w-[25%] h-[100%]">
+                  
+                      <div class="flex items-start justify-start flex-1 ">
+                          <div class="flex justify-center items-center gradient-head text-[2rem] text-white cursor-grabbing w-[60%] h-[10%] rounded-tr-[2rem] rounded-bl-[2rem] font">1</div>
+                      </div>
+  
+                      <div class="flex-[3] flex gap-[2rem] flex-col">
+                          <img src="assets/img/user-cv1.png" alt="" ><br>
+                          <h3 class="text-blue-800 text-[3rem] font text-center">Remplissez vos informations</h3>
+                          <p class="text-[1.5rem] text-center text-gray-400 Font">Vous commencez par saisir vos informations qui constituront le contenu de votre CV.</p>
+                      </div>
+                      
+                  </div>
+
+                  <div class="flex w-[25%] h-[100%]">
+                  
+                    <div class="flex items-start justify-center flex-1 ">
+                      <div class="flex justify-center items-center gradient-head text-[2rem] text-white cursor-grabbing w-[60%] h-[10%] rounded-tr-[2rem] rounded-bl-[2rem] font">2</div>
+                    </div>
+  
+                      <div class="flex-[3] flex gap-[5rem] flex-col">
+                          <img src="assets/img/user-cv3.png" alt="">
+                          <h3 class="text-gray-500 text-[3rem] font text-center">Choisissez un modele</h3>
+                          <p class="text-[1.5rem] text-center text-gray-400 Font">Choisissez un modele de CV et personnalisz-le en fonction de votre personnalite et style.</p>
+                      </div>
+                      
+                  </div>
+
+                  <div class="flex w-[25%] h-[100%]">
+                  
+                    <div class="flex items-start justify-center flex-1 ">
+                      <div class="flex justify-center items-center gradient-head text-[2rem] text-white cursor-grabbing w-[60%] h-[10%] rounded-tr-[2rem] rounded-bl-[2rem] font">3</div>
+                    </div>
+  
+                      <div class="flex-[3] flex gap-[5rem] flex-col">
+                          <img src="assets/img/user-cv5.jpg" alt="">
+                          <h3 class="text-gray-500 text-[3rem] font text-center">Telechargez le CV</h3>
+                          <p class="text-[1.5rem] text-center text-gray-400 Font">Telechargez votre CV immediatement et modifiez-le a tout moment.</p>
+                      </div>
+                      
+                  </div>
+
+
+                  
+              </div>
+          
+      </div>
+
+      <div class="flex justify-center flex-[2] gradient-head rounded-bl-[25rem]">
+           <div class="flex flex-col items-center justify-center flex-1 text-white">
+              <h1 class="text-[7rem] font font-bold">Previsualisez votre cv</h1>
+              <h2 class="text-[2rem]">De maniere optimise, simple et efficace</h2>
+              <img src="assets/img/user-cv4.png" alt="">
+           </div>
+
+           <div class="flex justify-center flex-1 bg-red-500">
+              <img src="assets/img/main_cv.jpg" alt="" class="w-[100%] h-full">
+           </div>
+          
+      </div>
+
+  </section>
+ <section class="flex justify-evenly items-center w-screen h-[20%]  p-[5rem]">
+  <div class="spinner-border text-primary" role="status">
+      <span class="visually-visible">start</span>
+  </div>
+    <div class="spinner-border text-secondary" role="status">
+      <span class="visually-hidden">start</span>
+    </div>
+    <div class="spinner-border text-success" role="status">
+      <span class="visually-hidden">start</span>
+    </div>
+    <div class="spinner-border text-danger" role="status">
+      <span class="visually-hidden">start</span>
+    </div>
+    <div class="spinner-border text-warning" role="status">
+      <span class="visually-hidden">start</span>
+    </div>
+    <div class="spinner-border text-info" role="status">
+      <span class="visually-hidden">start</span>
+    </div>
+    <div class="spinner-border text-light" role="status">
+      <span class="visually-hidden">start</span>
+    </div>
+    <div class="spinner-border text-dark" role="status">
+      <span class="visually-visible">start</span>
+    </div>
+
+ </section>
+
+<!-- Get starting -->
+
+  <section class="flex flex-col w-screen h-[90vh] rounded-tr-[30rem] gradient-head">
+<!-- theme de discours -->
+      <div class="flex flex-col gap-[1rem] justify-center items-center w-full h-[20%]">
+          <h1 class="text-[5rem] text-white font font-bold"><span class="font-bold text-orange-600">25</span> modeles et <span class="font-bold text-orange-600">15</span> couleurs</h1>
+          <p class="font text-[2rem] text-gray-300">Tous nos modeles de cv sont approuves par des recruteurs</p>
+      </div>
+<!-- modele de cv -->
+      <div class="flex gap-[1.5rem] w-full h-[65%] p-[6rem]">
+          
+            <div class="w-[20%] h-full overflow-hidden transition-[ease-out]">
+              <img src="modele/modele4.jpg" alt="" class="w-full h-full hover:scale-[1.1] backdrop-grayscale-[20px] cursor-pointer">
+            </div>
+
+            <div class="w-[20%] h-full overflow-hidden transition-[ease-out]">
+              <img src="modele/modele6.jpg" alt="" class="w-full h-full hover:scale-[1.1] backdrop-grayscale-[20px] cursor-pointer">
+            </div>
+
+            <div class="w-[20%] h-full overflow-hidden transition-[ease-out]">
+              <img src="modele/modele5.jpg" alt="" class="w-full h-full hover:scale-[1.1] backdrop-grayscale-[20px] cursor-pointer">
+            </div>
+
+            <div class="w-[20%] h-full overflow-hidden transition-[ease-out]">
+              <img src="modele/modele3.jpg" alt="" class="w-full h-full hover:scale-[1.1] backdrop-grayscale-[20px] cursor-pointer">
+            </div>
+
+            <div class="w-[20%] h-full overflow-hidden transition-[ease-out]">
+              <img src="modele/modele6.webp" alt="" class="w-full h-full hover:scale-[1.1] backdrop-grayscale-[20px] cursor-pointer">
+            </div>
+
+
+        
+      </div>
+<!-- Bouton de creation -->
+      <div class="flex justify-center items-center w-full h-[15%] bg-[url(assets/img/tache.png)] bg-contain bg-center bg-no-repeat">
+        <button class="gradient-head w-[30rem] h-[5rem] rounded transition-all hover:scale-[1.1]"><a href="./form.html" class="text-[1.8rem] text-white font">Decouvrir tous nos modeles</a></button>
+      </div>
+    
+  </section>
+
+  <section class="flex justify-center items-center w-screen h-[10rem] mt-[2rem]">
+      <h1 class="text-[6rem] font">Des miliers d'utilisateurs satisfaits</h1>
+  </section>
+
+
+  <section class="flex items-center justify-center w-screen h-[85vh] p-[2rem]">
+
+
+    <div id="carouselExampleIndicators" class="carousel slide w-[90%] h-full" data-bs-ride="false">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="w-full h-full carousel-item active d-flex">
+<!--Personalisation  -->
+          <div class="flex-[2] justify-center">
+            <img src="assets/img/femme_noire4.png" class="w-[50%] h-[55rem]" alt="...">
+          </div>
+          <div class="flex flex-[1.5] flex-col justify-center gap-[10rem] font">
+            <div class="w-[80%]">
+              <h1 class="text-[2rem]">Tres beaux resultats(CV, lettre de motivation) vous pouvez joindre la plateforme directement par telephone. J'ai eu de chance enorme d'avoir des informations interessantes. Je n'hesiterais pas a revenir sur ce site.</h1>
+            </div>
+            <div>
+              <h1 class="text-[3rem] text-blue-950 font font-bold">CATHYNE C.</h1>
+            </div>
+          </div>
+          
+        </div>
+<!--Personalisation  -->
+        <div class="w-full h-full carousel-item d-flex">
+
+          
+          <div class="flex-[2] justify-center">
+            <img src="assets/img/homme_noire2.png" class="w-[50%] h-[55rem]" alt="...">
+          </div>
+          <!-- <div class="flex flex-[1.5] flex-col justify-center gap-[10rem] font">
+            <div class="w-[80%]">
+              <h1 class="text-[2rem]">Tres beaux resultats(CV, lettre de motivation) vous pouvez joindre la plateforme directement par telephone. J'ai eu de chance enorme d'avoir des informations interessantes. Je n'hesiterais pas a revenir sur ce site.</h1>
+            </div>
+            <div>
+              <h1 class="text-[3rem] text-blue-950 font font-bold">GASPIN A.</h1>
+            </div>
+          </div> -->
+          
+        </div>
+<!-- Personalisation -->
+        
+        <div class="w-full h-full carousel-item d-flex">
+          
+
+          <div class="flex-[2] justify-center">
+            <img src="assets/img/femme_noire2.png" class="w-[50%] h-[60rem]" alt="...">
+          </div>
+          <!-- <div class="flex flex-[1.5] flex-col justify-center gap-[10rem]  font">
+            <div class="w-[80%]">
+              <h1 class="text-[2rem]">Tres beaux resultats(CV, lettre de motivation) vous pouvez joindre la plateforme directement par telephone. J'ai eu de chance enorme d'avoir des informations interessantes. Je n'hesiterais pas a revenir sur ce site.</h1>
+            </div>
+            <div>
+              <h1 class="text-[3rem] text-blue-950 font font-bold">BRIGITTE B.</h1>
+            </div>
+          </div> -->
+
+          
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="bg-blue-950 carousel-control-prev-icon w-[5rem] h-[5rem] rounded-[50%] p-[1rem] hover:scale-[1.1]" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="bg-blue-950 carousel-control-next-icon w-[5rem] h-[5rem] rounded-[50%] p-[1rem] hover:scale-[1.1]" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    
+  </section>
+
+  <section class="flex flex-col w-screen h-[80rem] mt-[10rem] gap-[4rem]">
+
+    <div class="flex justify-center items-center w-full h-[10%]">
+        <h1 class="text-[6rem] font text-blue-950">Fonctionanlites</h1>
+    </div>
+
+    <div class="flex w-full h-[90%]">
+      
+
+        <div class="flex flex-col items-center gap-[2rem] flex-1  pr-[5rem] pt-[4rem]">
+            
+          <div class="flex w-[55%] h-[25%]">
+            
+            <div class="flex justify-center flex-1">
+
+              <div class="flex justify-center items-center w-[50%] h-[28%] rounded-[50%] border-2 border-gray-400">
+                  <img src="modele/edit-solid-24.png" alt="">
+              </div>
+              
+            </div>
+            
+            <div class="flex flex-col gap-[2rem] flex-[3]">
+                <h1 class="text-[3rem] font font-bold">CV</h1>
+                <h2 class="text-[2rem] font">Creer de maniere illimite de nouveau CV et modifiez-les a tout moment.</h2>
+            </div> 
+            
+          </div>
+<!-- deucieme fonctionnalites -->
+
+          <div class="flex w-[55%] h-[25%]">
+            
+            <div class="flex justify-center flex-1">
+
+              <div class="flex justify-center items-center w-[50%] h-[28%] rounded-[50%] border-2 border-blue-700">
+                  <img src="modele/message-rounded-detail-regular-24.png" alt="">
+              </div>
+              
+            </div>
+            
+            <div class="flex flex-col gap-[2rem] flex-[3]">
+                <h1 class="text-[3rem] font font-bold text-blue-700">Lettre de motivation</h1>
+                <h2 class="text-[2rem] font">Ecrivez facilement des lettres de motivations professionnelles.</h2>
+            </div> 
+            
+          </div>
+
+<!-- troisieme fonctionnalites -->
+
+          <div class="flex w-[55%] h-[25%]">
+            
+            <div class="flex justify-center flex-1">
+
+              <div class="flex justify-center items-center w-[50%] h-[28%] rounded-[50%] border-2 border-gray-400">
+                  <img src="modele/phone-regular-24.png" alt="">
+              </div>
+  
+            </div>
+
+            <div class="flex flex-col gap-[2rem] flex-[3]">
+                <h1 class="text-[3rem] font font-bold">Offres d'emploi</h1>
+                <h2 class="text-[2rem] font">Soiyez informer automatiquement des offres d'emplois pertinents pour vous.</h2>
+            </div> 
+
+          </div>
+
+<!-- quatrieme fonctionnalite -->
+          <div class="flex w-[55%] h-[25%]">
+            
+            <div class="flex justify-center flex-1">
+
+              <div class="flex justify-center items-center w-[50%] h-[28%] rounded-[50%] border-2 border-gray-400">
+                  <img src="modele/point-dacces-sans-fil.png" alt="" class="w-[50%] h-[50%]">
+              </div>
+
+            </div>
+
+            <div class="flex flex-col gap-[2rem] flex-[3]">
+                <h1 class="text-[3rem] font font-bold">Candidatures</h1>
+                <h2 class="text-[2rem] font">Organisez toutes vos canditatures de maniere claire.</h2>
+            </div> 
+
+          </div>
+
+
+
+        </div>
+
+
+        <div class="flex-1">
+
+          <img src="assets/img/user-cv5.svg" alt="">
+          
+        </div>
+      
+    </div>      
+  </section>
+
+  <section class="flex flex-col justify-evenly items-center p-[12rem] gap-[8rem] w-screen h-[70vh]">
+    
+      <h1 class="text-[5rem] font">Foire aux questions</h1>
+
+  <div class="w-[70%] h-full">
+
+    <div class="h-full accordion" id="accordionExample">
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingOne">
+          <button class="accordion-button text-[2.5rem]" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            Qu'est-ce qu'un CV ?
+          </button>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+          <div class="accordion-body text-[1.8rem]">
+            <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingTwo">
+          <button class="accordion-button collapsed text-[2.5rem]" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            Que mettre dans un CV ?
+          </button>
+        </h2>
+        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+          <div class="accordion-body text-[1.8rem]">
+            <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingThree">
+          <button class="accordion-button collapsed text-[2.5rem]" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            Comment faire un bon CV ?
+          </button>
+        </h2>
+        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+          <div class="accordion-body text-[1.8rem]">
+            <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+
+
+  <h1 class="text-[1.5rem] font">Vous avez des questions sur notre site web ? Consulter notre <span class="font-bold text-blue-500">FAQ</span></h1>
+
+    
+  </section>
+
+  <footer class="flex justify-evenly items-center w-screen h-[60vh] p-[2rem] ">
+
+    <div class="flex flex-col justify-center items-center  w-[20%] h-[80%] gap-[2rem]">
+      
+        <div>
+          <h1 class="text-[3rem] font-bold">Ressources</h1>
+        </div>
+
+        <div class="flex flex-col justify-start">
+            <h3 class="text-[1.5rem] text-gray-500">Conseils</h3>
+            <h3 class="text-[1.5rem] text-gray-500">Exemples</h3>
+        </div>
+
+    </div>
+
+    <div class="flex flex-col justify-center items-center  w-[20%] h-[80%] gap-[2rem]">
+      
+      <div>
+        <h1 class="text-[3rem] font-bold">Produits</h1>
+      </div>
+
+      <div class="flex flex-col justify-start">
+          <h3 class="text-[1.5rem] text-gray-500">Prix</h3>
+          <h3 class="text-[1.5rem] text-gray-500">Modeles</h3>
+          <h3 class="text-[1.5rem] text-gray-500">Commentaires</h3>
+      </div>
+
+    </div>
+
+
+    <div class="flex flex-col justify-center items-center  w-[20%] h-[80%] gap-[2rem]">
+      
+      <div>
+        <h1 class="text-[3rem] font-bold">Service clients</h1>
+      </div>
+
+      <div class="flex flex-col justify-start">
+          <h3 class="text-[1.5rem] text-gray-500">FAQ</h3>
+          <h3 class="text-[1.5rem] text-gray-500">Contact</h3>
+          <h3 class="text-[1.5rem] text-gray-500">Conditions generales</h3>
+          <h3 class="text-[1.5rem] text-gray-500">Politiques de confidentialite</h3>
+          <h3 class="text-[1.5rem] text-gray-500">A propos</h3>
+      </div>
+
+    </div>
+    
+    
+  </footer>
+  
+  <div class="flex justify-around items-center w-screen h-[5vh] pl-[50rem] pr-[50rem]">
+
+    <h1 class="text-[1.5rem] text-gray-500">Facebook</h1>
+    <h1 class="text-[1.5rem] text-gray-500">Github</h1>
+    <h1 class="text-[1.5rem] text-gray-500">Google</h1>
+      
+  </div>
+
+
+  <div class="flex justify-around items-center w-screen h-[10vh] pl-[50rem] pr-[50rem]">
+
+    <img src="assets/img/icons-facebook.svg" alt="">
+    <img src="assets/img/icons-github.svg" alt="">
+    <img src="assets/img/icons-google.svg" alt="">
+      
+  </div>
+
+  <div class="flex items-center justify-center text-[1.5rem] text-gray-500 w-screen h-[5vh]">
+      @2024 CV.create        
+  </div>
+ 
+
+
+
+
+
+  
+
+
+
+  
+<!-- <section class="w-full h-full bg-white-500 mt-[3rem] p-[5rem]">
+  <div class="w-full h-full swiper mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide "><img src="modele/modele1.jpg" alt=""></div>
+        <div class="swiper-slide"><img src="modele/modele2.jpg" alt=""></div>
+        <div class="swiper-slide"><img src="modele/modele4.jpg" alt=""></div>
+        <div class="swiper-slide"><img src="modele/modele3.jpg" alt=""></div>
+        <div class="swiper-slide"><img src="modele/modele5.jpg" alt=""></div>
+        <div class="swiper-slide"><img src="modele/modele6.jpg" alt=""></div>
+        <div class="swiper-slide"><img src="modele/modele.jpg" alt=""></div>
+        <div class="swiper-slide"><img src="modele/modele1.jpg" alt=""></div>
+        <div class="swiper-slide"><img src="modele/modele1.jpg" alt=""></div>
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+</section> -->
+
+<!-- Section Fonctionalites -->
+
+
+
+
+
+<script src="js/tailwind.js"></script> 
+<script src="js/index.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>  
+
+</body>
+</html>

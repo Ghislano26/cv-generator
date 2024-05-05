@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <title>Coordonnees</title>
+</head>
+<body class="bg-gray-100">
+
+    
+<header class="flex flex-col gap-[2rem] w-screen h-[15vh] gradient-head">
+
+<nav class="flex w-full h-[15%] pt-[2rem] fixed gradient-head z-10">
+
+    <div class="flex-1 flex justify-start items-center p-[2rem]">
+            <img src="assets/img/logo.png" alt="" class="w-[50%]">
+    </div>
+    <div class="flex items-center flex-[2] justify-evenly text-[2rem] font link">
+        
+    <div class="spinner-border text-primary" role="status">
+        <span class="visually-visible">start</span>
+    </div>
+      <div class="spinner-border text-secondary" role="status">
+        <span class="visually-hidden"></span>
+      </div>
+      <div class="spinner-border text-success" role="status">
+        <span class="visually-hidden"></span>
+      </div>
+      <div class="spinner-border text-danger" role="status">
+        <span class="visually-hidden"></span>
+      </div>
+      <div class="spinner-border text-warning" role="status">
+        <span class="visually-hidden"></span>
+      </div>
+      <div class="spinner-border text-info" role="status">
+        <span class="visually-hidden"></span>
+      </div>
+      <div class="spinner-border text-light" role="status">
+        <span class="visually-hidden"></span>
+      </div>
+      <div class="spinner-border text-dark" role="status">
+        <span class="visually-visible"></span>
+      </div>
+    </div>
+    <div class="flex items-center justify-around flex-1 overflow-hidden bg-[url(assets/img/tache.png)] bg-cover bg-center bg-no-repeat">
+        <button class="gradient-head w-[15rem] h-[5rem] rounded transition-all hover:scale-[1.1]"><a href="./index.html" class="text-[1.5rem] text-white font">Retour</a></button>
+    </div>
+
+</nav>
+
+</header>
+
+
+<section class="flex justify-center items-center w-screen h-[140%] mt-[3rem]">
+
+
+    <div class = "flex w-[92%] h-[95%] bg-white">
+
+        <div class="bg-green-500 flex-[2]">
+            
+            <div class="flex justify-center items-center flex-col w-full h-[15%] bg-black text-white">
+                  <h1 class="text-[5rem] font">Commençons par vos Coordonnées</h1>  
+                  <p>Il est recommandé d'inclure au moins votre nom, votre e-mail et votre téléphone.</p>
+            </div>
+
+            <form action="create.php" method="post" class="h-[85%] bg-gray-200 flex pt-[1.5rem]">
+
+                    <div class="flex flex-col items-center justify-between flex-1 p-[1rem] gap-[2rem]">
+                        <div class="flex items-center pl-[5rem] w-[80%] h-[20%] border-2 border-gray-500 bg-[url(assets/img/Cameras.svg)] bg-no-repeat bg-contain bg-center">
+                            <input type="file" name="photo">
+        
+                        </div>
+
+                        <div class="flex flex-col items-start justify-start flex-1 p-[1rem] gap-[1rem] mt-[1.2rem]">
+                                  <label for="postal" class="text-[2.5rem] font font-bold bg-black text-white">Educations</label>
+                                  <textarea name="education" id="education" cols="30" rows="10" placeholder="Listez vos diplomes ici.... diplome(date)" class="p-[2rem] outline-none"></textarea>
+                        </div>
+
+                        
+                        
+                        <input type="submit" value="Creer un CV" class="text-white text-[1.5rem] font w-[15rem] h-[5rem] bg-blue-400 rounded transition-all hover:scale-[1.1]">
+                    </div>
+                    <!-- Fin de la partie envoie de photo et formulaire -->
+
+                    <div class="flex flex-col ">
+                            <div class="w-full h-[10% flex flex-col gap-[1rem]  pl-[1rem]">
+                              <div class="flex flex-col items-start justify-center flex-1 pl-[1rem] gap-[1rem]">
+                                  <label for="name" class="text-[1.5rem] font font-bold">Prenom et Nom</label>
+                                  <input type="text" name="name" id="name" placeholder="Ex : Ghislain Ateba" class="h-[4rem] w-[85%] p-[1.5rem] outline-none border-2 border-gray-300 text-[1.2rem]">
+                              </div> 
+                            </div>   
+                            
+                            <div class="w-full h-[10% flex flex-col gap-[1rem]  pl-[1rem] mt-[1rem]">
+                              <div class="flex flex-col items-start justify-center flex-1 pl-[1rem] gap-[1rem]">
+                                  <label for="adresse" class="text-[1.5rem] font font-bold">Adresse</label>
+                                  <input type="text" name="adresse" id="adresse" placeholder="Ex : 2 avenue victor hugo" class="h-[4rem] w-[85%] p-[1.5rem] outline-none border-2 border-gray-300 text-[1.2rem]">
+                              </div> 
+                            </div>   
+
+                            <div class="w-full h-[15%]  flex">
+                              <div class="flex flex-col items-start justify-center flex-1  pl-[2rem] gap-[1rem]">
+                                  <label for="postal" class="text-[1.5rem] font font-bold">Code Postal</label>
+                                  <input type="text" name="postal" placeholder="Ex : 69001" class="w-[50%] h-[4rem] text-[1.2rem] p-[2rem] outline-none border-2 border-gray-300">
+                              </div>  
+                              
+                              <div class="flex flex-col items-start justify-center flex-1  pl-[1rem] gap-[1rem]">
+                                  <label for="postal" class="text-[1.5rem] font font-bold">Ville</label>
+                                  <input type="text" name="ville" placeholder="Ex : Yaounde" class="w-[67%] h-[4rem] text-[1.2rem] p-[2rem] outline-none border-2 border-gray-300">
+                              </div>
+
+                            </div>
+
+
+
+                            <div class="w-full h-[15%]  flex">
+                              <div class="flex flex-col items-start justify-center flex-1 pl-[2rem] gap-[1rem]">
+                                  <label for="postal" class="text-[1.5rem] font font-bold">Telephone</label>
+                                  <input type="text" name="phone" placeholder="Ex : 6808 786 40" class="w-[50%] h-[4rem] text-[1.2rem] p-[2rem] outline-none border-2 border-gray-300">
+                              </div>  
+                              
+                              <div class="flex flex-col items-start justify-center flex-1 pl-[1rem] gap-[1rem]">
+                                  <label for="postal" class="text-[1.5rem] font font-bold">E-mail</label>
+                                  <input type="email" name="mail" placeholder="Ex : ghislainatebamateo@gmail.com" class="w-[67%] h-[4rem] text-[1.2rem] p-[2rem] outline-none border-2 border-gray-300">
+                              </div>
+
+                            </div>
+
+
+
+
+
+                            <div class="w-full h-[20%]  flex flex-col items-start p-[1rem] gap-[3rem]">
+                             
+                              <label for="skill" class="text-[1.5rem] font font-bold bg-black text-white">Competences</label>
+                              <div class="flex justify-center w-full h-fu gap-[1rem]">
+
+                                  <div class="w-[20%]  flex flex-col-reverse items-center justify-center gap-[1rem]">
+                                      <input type="checkbox" name="choix[]" value="Creative Design" id="design" class="text-center"><label for="design" class="text-[1.2rem] font font-bold text-gray-400">Creative Design</label>
+                                  </div>
+
+                                  <div class="w-[20%]  flex flex-col-reverse items-center justify-center gap-[1rem]">
+                                    <input type="checkbox" name="choix[]" value="Maintenance Reseau" id="reseau"><label for="reseau" class="text-[1.2rem] font font-bold text-center text-gray-400">Maintenance Reseau</label>
+                                  </div>
+
+                                  <div class="w-[20%]  flex flex-col-reverse items-center justify-center gap-[1rem]">
+                                    <input type="checkbox" name="choix[]" value="Developpement Web FullStack" id="web"><label for="web" class="text-[1.2rem] font font-bold text-center text-gray-400">Developpement Web FullStack</label>
+                                  </div>
+
+                                  <div class="w-[20%]  flex flex-col-reverse items-center justify-center gap-[1rem]">
+                                    <input type="checkbox" name="choix[]" value="Cloud" id="cloud"><label for="cloud" class="text-[1.2rem] font font-bold text-gray-400">Cloud</label>
+                                  </div>
+
+                                  <div class="w-[20%]  flex flex-col-reverse items-center justify-center gap-[1rem]">
+                                    <input type="checkbox" name="choix[]" value="Developpement Mobile" id="mobile"><label for="mobile" class="text-[1.2rem] font font-bold text-center text-gray-400">Developpement Mobile</label>
+                                  </div>
+
+                                  <div class="w-[20%]  flex flex-col-reverse items-center justify-center gap-[1rem]">
+                                    <input type="checkbox" name="choix[]" value="Administration base de donnees" id="database"><label for="database" class="text-[1.2rem] font font-bold text-center text-gray-400">Administration base de donnees</label>
+                                  </div>
+
+                                  <div class="w-[20%]  flex flex-col-reverse items-center justify-center gap-[1rem]">
+                                    <input type="checkbox" name="choix[]" value="Cybersecurite" id="cybersecurite"><label for="cybersecurite" class="text-[1.2rem] font font-bold text-center text-gray-400">Cybersecurite</label>
+                                  </div>
+                                  
+                              </div>
+
+                            </div>
+
+                            <div class="flex flex-col items-start justify-center flex-1 pl-[1rem] gap-[1rem]">
+                                  <label for="postal" class="text-[1.5rem] font font-bold bg-black text-white">Experiences</label>
+                                  <textarea name="skill" id="skill" cols="118" rows="10" placeholder="Decrivez brievement votre parcours ici...." class="p-[2rem] outline-none"></textarea>
+                            </div>
+
+
+                    
+                    </div>
+
+            
+
+
+
+            
+            </form>
+
+
+
+        
+        </div>
+
+        <div class="flex-1 bg-[url(assets/img/homme_noire2.png)] bg-no-repeat bg-cover bg-center">
+            
+        </div>
+
+
+
+
+    
+    </div>
+
+
+
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+<script src="js/tailwind.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script> 
+</body>
+</html>
